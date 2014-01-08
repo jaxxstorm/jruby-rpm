@@ -1,0 +1,6 @@
+{
+  "name": "jruby",
+  "packaging": {
+    "type": "spec"
+  }
+}
