@@ -12,6 +12,8 @@ Requires: java-1.7.0-openjdk
 A Java implementation of the Ruby language
 
 %prep
+mkdir SOURCES
+curl -L %{SOURCE0} -o SOURCES/%{name}-bin-%{version}.tar.gz
 
 %setup -q
 
