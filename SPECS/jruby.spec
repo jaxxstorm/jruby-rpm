@@ -13,7 +13,7 @@ A Java implementation of the Ruby language
 
 %prep
 mkdir SOURCES
-curl -L %{SOURCE0} -o SOURCES/%{name}-bin-%{version}.tar.gz
+curl -L http://jruby.org.s3.amazonaws.com/downloads/${name}-bin-%{version}.tar.gz -o SOURCES/%{name}-bin-%{version}.tar.gz
 
 %setup -q
 
