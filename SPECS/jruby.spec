@@ -8,6 +8,8 @@ Summary: A Java implementation of the Ruby language
 Source0:  http://jruby.org.s3.amazonaws.com/downloads/%{version}/%{name}-bin-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: java-1.7.0-openjdk
+%description: jruby
+A Java implementation of the Ruby language
 
 %prep
 
