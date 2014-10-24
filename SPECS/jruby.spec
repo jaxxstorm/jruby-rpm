@@ -1,7 +1,7 @@
 Name: jruby
 Version: 1.7.9
 Release: 1%{?dist}
-License: EPL/GPL/LGPL
+License: EPL and GPL+
 Group: Development/Languages
 URL: http://jruby.org
 Summary: A Java implementation of the Ruby language
